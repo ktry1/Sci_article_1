@@ -1,0 +1,9 @@
+type Result = 
+ variant {
+   err: Errors;
+   ok: record {};
+ };
+type Errors = variant {Insufficient_Funds;};
+service : {
+  register: () -> (Result);
+}

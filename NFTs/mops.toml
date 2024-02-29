@@ -1,0 +1,6 @@
+[dependencies]
+base = "0.10.4"
+vector = "0.2.0"
+map = "9.0.1"
+stable-rbtree = "1.0.0"
+linked-list = "0.1.0"
